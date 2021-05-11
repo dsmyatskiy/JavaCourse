@@ -1,3 +1,5 @@
+package sandbox;
+
 import static java.lang.Math.*;
 
 public class Point {
