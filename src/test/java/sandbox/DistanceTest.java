@@ -1,5 +1,6 @@
 package sandbox;
 
+import org.testng.*;
 import org.testng.annotations.*;
 
 import static sandbox.Point.*;
@@ -19,6 +20,6 @@ public class DistanceTest {
         Point point1 = new Point(0, 0);
         Point point2 = new Point(0, 0);
 
-        assert distance(point1, point2) == 0;
+        Assert.assertEquals(distance(point1, point2), 0);
     }
 }
